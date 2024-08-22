@@ -1,0 +1,17 @@
+
+/* Form Actions */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+#cancelButton {
+    background-color: #f44336; /* Red color for cancel button */
+}
+
+#cancelButton:hover {
+    background-color: #d32f2f;
+}
+

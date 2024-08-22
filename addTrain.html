@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Train</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/addtrain.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="login.html" class="nav-link">Login</a>
+            <a href="register.html" class="nav-link">Register</a>
+            <a href="bookTicket.html" class="nav-link">Book Ticket</a>
+            <a href="profile.html" class="nav-link">Profile</a>
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="add-train-container">
+            <h2>Add New Train</h2>
+            
+            <div class="form-container">
+                <form id="addTrainForm">
+                    <label for="trainName">Train Name</label>
+                    <input type="text" id="trainName" name="trainName" required>
+
+                    <label for="trainNumber">Train Number</label>
+                    <input type="text" id="trainNumber" name="trainNumber" required>
+
+                    <label for="emailId">Email ID</label>
+                    <input type="email" id="emailId" name="emailId" required>
+
+                    <label for="allStations">All Stations (comma separated)</label>
+                    <input type="text" id="allStations" name="allStations" required>
+
+                    <label for="startingStation">Starting Station</label>
+                    <input type="text" id="startingStation" name="startingStation" required>
+
+                    <label for="destinationStation">Destination Station</label>
+                    <input type="text" id="destinationStation" name="destinationStation" required>
+
+                    <label for="seatsAvailable">Number of Seats Available</label>
+                    <input type="number" id="seatsAvailable" name="seatsAvailable" required>
+
+                    <label for="timing">Timing of Train</label>
+                    <input type="text" id="timing" name="timing" required>
+
+                    <div class="form-actions">
+                        <button type="submit">Add Train</button>
+                        <button type="button" id="cancelButton">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('cancelButton').addEventListener('click', function() {
+            window.location.href = 'admin.html'; // Redirect to the admin page
+        });
+    </script>
+</body>
+</html>
+

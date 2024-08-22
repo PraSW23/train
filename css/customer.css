@@ -1,0 +1,60 @@
+/* Dashboard Container */
+.dashboard-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 100%;
+    color: #fff;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Chart Container */
+.chart-container {
+    flex: 1;
+    max-width: 45%;
+}
+
+/* Booking Link Container */
+.booking-link-container {
+    flex: 1;
+    max-width: 45%;
+}
+
+/* Booking Link */
+.booking-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2575fc;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.booking-link:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Arrow */
+.arrow {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+

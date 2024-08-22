@@ -1,0 +1,35 @@
+/* Info container */
+.info-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Section styling */
+.stats-section {
+    margin-bottom: 30px;
+}
+
+.stats-section p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.stats-list {
+    list-style: none;
+    padding: 0;
+}
+
+.stats-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.stats-list span {
+    font-weight: 700;
+}

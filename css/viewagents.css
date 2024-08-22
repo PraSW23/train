@@ -1,0 +1,73 @@
+/* Agents Container */
+.agents-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    max-width: 1000px;
+    width: 100%;
+    color: #fff;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Agents Table */
+.agents-table {
+    margin-bottom: 40px;
+    overflow-x: auto; /* For responsiveness */
+}
+
+.agents-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.agents-table th, .agents-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.agents-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.agents-table td {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.delete-agent {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-agent:hover {
+    background-color: #c0392b;
+}
+
+/* Add Agent Button */
+.add-agent-button {
+    margin-top: 20px;
+}
+
+.add-agent-button button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2575fc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-agent-button button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+

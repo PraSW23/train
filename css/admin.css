@@ -1,0 +1,113 @@
+/* Dashboard Container */
+.dashboard-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+    width: 100%;
+    color: #fff;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Layout for chart and table */
+.chart-table-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.chart-container,
+.revenue-table {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.chart-container {
+    flex: 2;
+}
+
+.revenue-table {
+    flex: 1;
+}
+
+/* Styling for chart container */
+.chart-container h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for revenue table */
+.revenue-table h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.revenue-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.revenue-table th, .revenue-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.revenue-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Action Buttons */
+.action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.action-buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2575fc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 0 10px;
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+
+/* Chart Container */
+.chart-container {
+    flex: 2;
+    margin: 0 10px;
+}
+
+.chart-container h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#salesPieChart {
+    width: 50% !important; /* Make the pie chart half the width of its container */
+    height: auto !important; /* Maintain aspect ratio */
+}
+
+#chart_h{
+ text-align: left;
+ margin-left: 4%;
+}

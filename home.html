@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="login.html" class="nav-link">Login</a>
+            <a href="register.html" class="nav-link">Register</a>
+            <a href="profile.html" class="nav-link">Profile</a>
+            
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="info-container">
+            <h2>Home</h2>
+            <div class="stats-section">
+                <p>Number of Tickets Booked Per Class</p>
+                <ul id="ticketsPerClass" class="stats-list">
+                    <li>First Class: <span id="firstClassCount">0</span></li>
+                    <li>Second Class: <span id="secondClassCount">0</span></li>
+                    <li>Third Class: <span id="thirdClassCount">0</span></li>
+                </ul>
+            </div>
+            <div class="stats-section">
+                <p>Sales Done Per Quarter</p>
+                <ul id="salesPerQuarter" class="stats-list">
+                    <li>Q1: <span id="q1Sales">0</span></li>
+                    <li>Q2: <span id="q2Sales">0</span></li>
+                    <li>Q3: <span id="q3Sales">0</span></li>
+                    <li>Q4: <span id="q4Sales">0</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

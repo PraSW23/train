@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Agents</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/viewagents.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="login.html" class="nav-link">Login</a>
+            <a href="register.html" class="nav-link">Register</a>
+            <a href="bookTicket.html" class="nav-link">Book Ticket</a>
+            <a href="profile.html" class="nav-link">Profile</a>
+            
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="agents-container">
+            <h2>Agents List</h2>
+            
+            <div class="agents-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Agent Name</th>
+                            <th>Agent ID</th>
+                            <th>Mobile Number</th>
+                            <th>Email ID</th>
+                            <th>Tickets Booked</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>AG123</td>
+                            <td>123-456-7890</td>
+                            <td>john.doe@example.com</td>
+                            <td>150</td>
+                            <td><button class="delete-agent">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>AG124</td>
+                            <td>987-654-3210</td>
+                            <td>jane.smith@example.com</td>
+                            <td>200</td>
+                            <td><button class="delete-agent">Delete</button></td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="add-agent-button">
+                <button id="addAgent">Add New Agent</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
